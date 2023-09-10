@@ -8,6 +8,12 @@ const rightSound = new Audio('sounds_bongo1.mp3');
 let leftPressed = false;
 let rightPressed = false;
 
+const leftImage = new Image();
+leftImage.src = 'Left.png';
+
+const rightImage = new Image();
+rightImage.src = 'Right.png';
+
 leftButton.addEventListener('mousedown', () => {
     leftPressed = true;
     bongoCat.src = 'Left.png'; // Changes to the left-tapping image
